@@ -12,7 +12,8 @@ def update(feeds: list):
     for feed in feeds:
         category = feed["tags"][0]["term"]
         title = feed["title"]
-        content = create_content(title, feed["summary"])
+        link = feed["link"]
+        content = create_content(title, link)  # 링크 추가
 
         file_name = get_file_name(category, title)
         with open(file_name, "w", encoding="utf-8") as f:
@@ -23,20 +24,11 @@ def update(feeds: list):
     update_readme_with_recent_posts(feeds)
 
 
-def create_content(title: str, summary: str) -> str:
-    summary = html.unescape(summary)
-    contents = summary.split("<pre>")
-
-    for i in range(len(contents)):
-        code_block = re.search(r'<code\s+class="([^"]+)"', contents[i])
-        if code_block:
-            language = code_block.group(1)
-            if "language-" in language:
-                language = language.replace("language-", "")
-            contents[i] = attach_language(language, "<pre>" + contents[i])
-        else:
-            contents[i] = markdownify(contents[i])
-    return f"{title}\n=\n" + "".join(contents)
+def create_content(title: str, link: str) -> str:
+    """
+    포스팅의 제목과 링크만 포함하는 README 파일을 생성하는 함수
+    """
+    return f"# {title}\n\n링크: [{title}]({link})\n"
 
 
 def attach_language(language: str, content: str) -> str:
@@ -75,24 +67,24 @@ def sort_toc():
 
 
 def update_readme_with_recent_posts(feeds: list, post_count: int = 10):
-    # :zap: 최근 발행 포스트 가져오기
+    # 최근 포스팅 가져오기
     recent_posts = feeds[:post_count]
     
-    # :zap: 최근 발행 포스트 목록을 Markdown 형식으로 구성
+    # 최근 포스팅 목록을 Markdown 형식으로 구성
     recent_posts_content = "\n".join(
-        [f"- 🪙 [{post.title}]({post.link})" for post in recent_posts]
+        [f"- [{post.title}]({post.link})" for post in recent_posts]
     )
     
     with open("README.md", "r", encoding="utf-8") as f:
         readme = f.read()
 
-    # "## :zap: 최근 발행 포스트" 섹션 업데이트
-    if "## :zap: 최근 발행 포스트" in readme:
-        start_index = readme.find("## :zap: 최근 발행 포스트")
+    # "## 최근 포스팅" 섹션 업데이트
+    if "## 최근 포스팅" in readme:
+        start_index = readme.find("## 최근 포스팅")
         end_index = readme.find("##", start_index + 1) if "##" in readme[start_index + 1:] else len(readme)
-        updated_readme = readme[:start_index] + f"## :zap: 최근 발행 포스트\n{recent_posts_content}\n" + readme[end_index:]
+        updated_readme = readme[:start_index] + f"## 최근 포스팅\n{recent_posts_content}\n" + readme[end_index:]
     else:
-        updated_readme = readme + f"\n\n## :zap: 최근 발행 포스트\n{recent_posts_content}\n"
+        updated_readme = readme + f"\n\n## 최근 포스팅\n{recent_posts_content}\n"
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(updated_readme)
