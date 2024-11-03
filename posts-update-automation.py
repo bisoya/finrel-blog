@@ -4,7 +4,7 @@ import re
 from markdownify import markdownify
 import html
 
-BLOG_URI = "https://finrel.tistory.com"
+BLOG_URI = "https://finrel.tistory.com/"
 GITHUB_URI = "https://github.com/jectgenius/finrel-blog/tree/main/"
 
 
