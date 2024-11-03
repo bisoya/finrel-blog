@@ -67,24 +67,24 @@ def sort_toc():
 
 
 def update_readme_with_recent_posts(feeds: list, post_count: int = 10):
-    # 최근 포스팅 가져오기
+    # :zap: 최근 발행 포스트 가져오기
     recent_posts = feeds[:post_count]
-    
-    # 최근 포스팅 목록을 Markdown 형식으로 구성
+
+    # :zap: 최근 발행 포스트 목록을 Markdown 형식으로 구성
     recent_posts_content = "\n".join(
-        [f"- [{post.title}]({post.link})" for post in recent_posts]
+        [f"- 🪙 [{post.title}]({post.link})" for post in recent_posts]
     )
-    
+
     with open("README.md", "r", encoding="utf-8") as f:
         readme = f.read()
 
-    # "## 최근 포스팅" 섹션 업데이트
-    if "## 최근 포스팅" in readme:
-        start_index = readme.find("## 최근 포스팅")
+    # "## :zap: 최근 발행 포스트" 섹션 업데이트
+    if "## :zap: 최근 발행 포스트" in readme:
+        start_index = readme.find("## :zap: 최근 발행 포스트")
         end_index = readme.find("##", start_index + 1) if "##" in readme[start_index + 1:] else len(readme)
-        updated_readme = readme[:start_index] + f"## 최근 포스팅\n{recent_posts_content}\n" + readme[end_index:]
+        updated_readme = readme[:start_index] + f"## :zap: 최근 발행 포스트\n{recent_posts_content}\n" + readme[end_index:]
     else:
-        updated_readme = readme + f"\n\n## 최근 포스팅\n{recent_posts_content}\n"
+        updated_readme = readme + f"\n\n## :zap: 최근 발행 포스트\n{recent_posts_content}\n"
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(updated_readme)
