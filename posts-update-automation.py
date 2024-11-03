@@ -80,7 +80,7 @@ def update_readme_with_recent_posts(feeds: list, post_count: int = 10):
     
     # :zap: 최근 발행 포스트 목록을 Markdown 형식으로 구성
     recent_posts_content = "\n".join(
-        [f"- [{post.title}]({post.link})" for post in recent_posts]
+        [f"- 🪙 [{post.title}]({post.link})" for post in recent_posts]
     )
     
     with open("README.md", "r", encoding="utf-8") as f:
