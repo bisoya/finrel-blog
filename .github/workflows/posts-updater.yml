@@ -5,7 +5,7 @@ on:
     branches: [ main ]
   schedule:
     # - cron: "0 0 */1 * *"
-    - cron: "0 17 */1 * *"  # 매일 한국 시간 오전 1시(UTC 16:00)에 1일마다 실행
+    - cron: "0 18 */1 * *"  # 매일 한국 시간 오전 1시(UTC 16:00)에 1일마다 실행
 
  
 jobs:
@@ -13,10 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v3.5.2
     
     - name: Set up Python 3.9
-      uses: actions/setup-python@v3
+      uses: actions/setup-python@v4
       with:
         python-version: '3.9'
 
