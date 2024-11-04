@@ -1,3 +1,23 @@
-# 🪙 [경제 용어] 희소성 뜻
+[경제 용어] 희소성 뜻
+=
+### \[경제 용어] 희소성 뜻
 
-🪙 <a href='https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%ED%9D%AC%EC%86%8C%EC%84%B1-%EB%9C%BB' target='_blank'>[경제 용어] 희소성 뜻</a>
+
+![](https://blog.kakaocdn.net/dn/bDN28k/btsKuziERvy/6mqohvTWd4WVT02PzA1xvK/img.png)
+
+
+
+#### 희소성
+
+
+ 
+
+
+뜻 // 인간의 욕망에 비해 자원이 상대적으로 부족한 상태
+
+
+ 
+
+
+예시 // 중세 유럽의 후추는 냉장이나 냉동 기술이 발달하지 않았던 시대였으므로 고기의 맛과 향이 떨어지는 문제를 해결해주어 매우 희소했었다.
+
