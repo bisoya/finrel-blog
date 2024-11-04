@@ -45,7 +45,7 @@ def create_content(title: str, summary: str, link: str) -> str:
     """
     포스팅의 제목과 링크만 포함하는 README 파일을 생성
     """
-    return f"# 🪙 {title}\n\n- [🪙 {title}]({link})\n"
+    return f"# 🪙 {title}\n\n 🪙 [{title}]({link})\n"
 
 
 def attach_language(language: str, content: str) -> str:
