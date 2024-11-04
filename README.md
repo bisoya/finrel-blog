@@ -1,6 +1,6 @@
 # 🪙 핀렐 블로그
 - :moneybag: 금융(fintech)과 :wrench: 기술(relationship)의 융합을 통한 사람들과의 관계 형성과 정보 공유를 지향합니다.  
-:point_right: 핀렐 블로그 [https://finrel.tistory.com](https://finrel.tistory.com)
+:point_right: 🪙 핀렐 블로그 [https://finrel.tistory.com](https://finrel.tistory.com)
 
 <!-- :point_right:<a href="https://finrel.tistory.com" target="_blank">https://finrel.tistory.com</a> -->
 
