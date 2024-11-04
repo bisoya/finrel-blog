@@ -4,8 +4,7 @@ on:
   push:
     branches: [ main ]
   schedule:
-    # - cron: "0 0 */1 * *"
-    - cron: "0 22 */1 * *"  # 매일 한국 시간 오전 1시(UTC 16:00)에 1일마다 실행
+    - cron: "0 11 */1 * *" # 매일 한국 시간 오후 8시에 1일마다 실행
 
  
 jobs:
