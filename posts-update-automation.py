@@ -45,7 +45,9 @@ def create_content(title: str, summary: str, link: str) -> str:
     """
     포스팅의 제목과 링크만 포함하는 README 파일을 생성
     """
-    return f"# 🪙 {title}\n\n 🪙 [{title}]({link}){:target="_blank"}\n"
+    # return f"# 🪙 {title}\n\n 🪙 [{title}]({link}){:target="_blank"}\n"
+    return f"# 🪙 {title}\n\n🪙 <a href='{link}' target='_blank'>{title}</a>\n"
+                                                   
 
 
 def attach_language(language: str, content: str) -> str:
@@ -65,7 +67,8 @@ def update_readme(category: str):
 
     if readme.find(category) == -1:
         with open("README.md", "a", encoding="utf-8") as f:
-            f.write(f"\n- [{category}]({GITHUB_URI + category}){:target="_blank"}")
+            # f.write(f"\n- [{category}]({GITHUB_URI + category}){:target="_blank"}")
+            f.write(f'\n- <a href="{GITHUB_URI + category}" target="_blank">{category}</a>\n')
 
     sort_toc()
 
@@ -89,7 +92,8 @@ def update_readme_with_recent_posts(feeds: list, post_count: int = 10):
 
     # :zap: 최근 발행 포스트 목록을 Markdown 형식으로 구성
     recent_posts_content = "\n".join(
-        [f"- 🪙 [{post.title}]({post.link}){:target="_blank"}" for post in recent_posts]
+        # [f"- 🪙 [{post.title}]({post.link}){:target="_blank"}" for post in recent_posts]
+    [f'- 🪙 <a href="{post.link}" target="_blank">{post.title}</a>' for post in recent_posts]
     )
 
     with open("README.md", "r", encoding="utf-8") as f:
