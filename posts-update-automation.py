@@ -46,7 +46,7 @@ def create_content(title: str, summary: str, link: str) -> str:
     포스팅의 제목과 링크만 포함하는 README 파일을 생성
     """
     # return f"# 🪙 {title}\n\n 🪙 [{title}]({link}){:target="_blank"}\n"
-    return f"# 🪙 {title}\n\n\n :point_right: 🪙 <a href='{link}' target='_blank'>{title}</a>\n"
+    return f"# 🪙 {title}\n\n<br>\n\n :point_right: 🪙 <a href='{link}' target='_blank'>{title}</a>\n"
                                                    
 
 
@@ -80,7 +80,7 @@ def sort_toc():
     start = readme.find("## 📌 카테고리")
     toc = readme[start:].strip()
     toc_lines = sorted(toc.split("\n")[1:])
-    sort_toc = "\n".join(["## 📌 카테고리"] + toc_lines)
+    sort_toc = "\n".join(["\n\n<br>\n\n## 📌 카테고리"] + toc_lines)
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme.replace(toc, sort_toc))
@@ -105,7 +105,7 @@ def update_readme_with_recent_posts(feeds: list, post_count: int = 10):
         end_index = readme.find("##", start_index + 1) if "##" in readme[start_index + 1:] else len(readme)
         updated_readme = readme[:start_index] + f"## :zap: 최근 발행 포스트\n{recent_posts_content}\n" + readme[end_index:]
     else:
-        updated_readme = readme + f"\n\n## :zap: 최근 발행 포스트\n{recent_posts_content}\n"
+        updated_readme = readme + f"\n\n<br>\n\n## :zap: 최근 발행 포스트\n{recent_posts_content}\n"
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(updated_readme)
