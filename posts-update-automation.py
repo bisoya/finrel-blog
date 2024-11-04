@@ -103,7 +103,7 @@ def update_readme_with_recent_posts(feeds: list, post_count: int = 10):
     if "## :zap: 최근 발행 포스트" in readme:
         start_index = readme.find("## :zap: 최근 발행 포스트")
         end_index = readme.find("##", start_index + 1) if "##" in readme[start_index + 1:] else len(readme)
-        updated_readme = readme[:start_index] + f"## :zap: 최근 발행 포스트\n{recent_posts_content}\n" + readme[end_index:]
+        updated_readme = readme[:start_index] + f"## :zap: 최근 발행 포스트\n{recent_posts_content}\n" + readme[end_index:] + F"\n\n<br>\n\n"
     else:
         updated_readme = readme + f"\n\n## :zap: 최근 발행 포스트\n{recent_posts_content}\n"
 
