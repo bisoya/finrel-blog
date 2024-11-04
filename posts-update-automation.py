@@ -46,7 +46,7 @@ def create_content(title: str, summary: str, link: str) -> str:
     포스팅의 제목과 링크만 포함하는 README 파일을 생성
     """
     # return f"# 🪙 {title}\n\n 🪙 [{title}]({link}){:target="_blank"}\n"
-    return f"#\n\n\n :point_right: 🪙 {title}\n\n🪙 <a href='{link}' target='_blank'>{title}</a>\n"
+    return f"# 🪙 {title}\n\n\n :point_right: 🪙 <a href='{link}' target='_blank'>{title}</a>\n"
                                                    
 
 
