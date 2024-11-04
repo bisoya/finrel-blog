@@ -4,7 +4,7 @@
 :point_right:<a href="[{GITHUB_URI + category}](https://finrel.tistory.com)" target="_blank">https://finrel.tistory.com</a>/n
 
 ## :zap: 최근 발행 포스트
-- 🪙 [[경제 용어] 희소성 뜻](https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%ED%9D%AC%EC%86%8C%EC%84%B1-%EB%9C%BB)
-- 🪙 [[경제 용어] 경제 뜻](https://finrel.tistory.com/entry/%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EA%B2%BD%EC%A0%9C-%EB%9C%BB)
+- 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%ED%9D%AC%EC%86%8C%EC%84%B1-%EB%9C%BB" target="_blank">[경제 용어] 희소성 뜻</a>
+- 🪙 <a href="https://finrel.tistory.com/entry/%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EA%B2%BD%EC%A0%9C-%EB%9C%BB" target="_blank">[경제 용어] 경제 뜻</a>
 ## 📌 카테고리
 - [경제](https://github.com/jectgenius/finrel-blog/tree/main/경제)
