@@ -29,24 +29,24 @@ def create_content(title: str, summary: str, link: str) -> str:
     """
     포스팅의 내용 전부 포함하는 README 파일을 생성
     """
-    # summary = html.unescape(summary)
-    # contents = summary.split("<pre>")
-    # for i in range(len(contents)):
-    #     code_block = re.search(r'<code\s+class="([^"]+)"', contents[i])
-    #     if code_block:
-    #         language = code_block.group(1)
-    #         if "language-" in language:
-    #             language = language.replace("language-", "")
-    #         contents[i] = attach_language(language, "<pre>" + contents[i])
-    #     else:
-    #         contents[i] = markdownify(contents[i])
-    # return f"{title}\n=\n" + "".join(contents)
+    summary = html.unescape(summary)
+    contents = summary.split("<pre>")
+    for i in range(len(contents)):
+        code_block = re.search(r'<code\s+class="([^"]+)"', contents[i])
+        if code_block:
+            language = code_block.group(1)
+            if "language-" in language:
+                language = language.replace("language-", "")
+            contents[i] = attach_language(language, "<pre>" + contents[i])
+        else:
+            contents[i] = markdownify(contents[i])
+    return f"{title}\n=\n" + "".join(contents)
 
     """
     포스팅의 제목과 링크만 포함하는 README 파일을 생성
     """
     # return f"# 🪙 {title}\n\n 🪙 [{title}]({link}){:target="_blank"}\n"
-    return f"# 🪙 {title}\n\n🪙 <a href='{link}' target='_blank'>{title}</a>\n"
+    # return f"# 🪙 {title}\n\n🪙 <a href='{link}' target='_blank'>{title}</a>\n"
                                                    
 
 
