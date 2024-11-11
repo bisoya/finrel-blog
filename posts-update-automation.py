@@ -80,7 +80,7 @@ def sort_toc():
     start = readme.find("## 📌 카테고리")
     toc = readme[start:].strip()
     toc_lines = sorted(toc.split("\n")[1:])
-    sort_toc = "\n\n".join(["## 📌 카테고리"] + toc_lines)
+    sort_toc = "\n".join(["## 📌 카테고리"] + toc_lines + "\n\n<br>\n\n")
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme.replace(toc, sort_toc))
