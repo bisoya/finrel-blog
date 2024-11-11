@@ -9,7 +9,7 @@
 <br>
 
 ## 📌 카테고리
-- [경제](https://github.com/jectgenius/finrel-blog/tree/main/경제)
+
 
 
 
