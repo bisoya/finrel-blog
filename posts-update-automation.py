@@ -68,7 +68,7 @@ def update_readme(category: str):
     if readme.find(category) == -1:
         with open("README.md", "a", encoding="utf-8") as f:
             # f.write(f"\n- [{category}]({GITHUB_URI + category}){:target="_blank"}")
-            f.write(f'\n\n- <a href="{GITHUB_URI + category}" target="_blank">{category}</a>\n')
+            f.write(f'\n- <a href="{GITHUB_URI + category}" target="_blank">{category}</a>\n')
 
     sort_toc()
 
@@ -80,7 +80,7 @@ def sort_toc():
     start = readme.find("## 📌 카테고리")
     toc = readme[start:].strip()
     toc_lines = sorted(toc.split("\n")[1:])
-    sort_toc = "\n".join(["## 📌 카테고리"] + toc_lines)
+    sort_toc = "\n\n".join(["## 📌 카테고리"] + toc_lines)
 
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme.replace(toc, sort_toc))
