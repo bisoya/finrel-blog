@@ -8,6 +8,7 @@
 <br>
 
 ## :zap: 최근 발행 포스트
+- 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EC%88%98%EC%9A%94%EC%9E%90-%EB%9C%BB" target="_blank">[경제 용어] 수요자 뜻</a>
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EC%8B%9C%EC%9E%A5-%EB%9C%BB" target="_blank">[경제 용어] 시장 뜻</a>
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%ED%98%95%ED%8F%89%EC%84%B1-%EB%9C%BB" target="_blank">[경제 용어] 형평성 뜻</a>
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%ED%9A%A8%EC%9C%A8%EC%84%B1-%EB%9C%BB" target="_blank">[경제 용어] 효율성 뜻</a>
@@ -17,7 +18,6 @@
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EA%B8%B0%ED%9A%8C%EB%B9%84%EC%9A%A9-%EB%9C%BB" target="_blank">[경제 용어] 기회비용 뜻</a>
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EC%9E%90%EC%9C%A0%EC%9E%AC-%EB%98%90%EB%8A%94-%EB%AC%B4%EC%83%81%EC%9E%AC-%EB%9C%BB" target="_blank">[경제 용어] 자유재 또는 무상재 뜻</a>
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EA%B2%BD%EC%A0%9C%EC%9E%AC-%EB%9C%BB" target="_blank">[경제 용어] 경제재 뜻</a>
-- 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EC%9E%AC%ED%99%94-%EB%9C%BB" target="_blank">[경제 용어] 재화 뜻</a>
 
 <br>
 
