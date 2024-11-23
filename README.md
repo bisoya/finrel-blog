@@ -8,6 +8,7 @@
 <br>
 
 ## :zap: 최근 발행 포스트
+- 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EA%B3%B5%EA%B3%B5%EC%9E%AC-%EB%9C%BB" target="_blank">[경제 용어] 공공재 뜻</a>
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EB%B9%84%EA%B2%BD%ED%95%A9%EC%84%B1-%EB%9C%BB" target="_blank">[경제 용어] 비경합성 뜻</a>
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EB%B9%84%EB%B0%B0%EC%A0%9C%EC%84%B1-%EB%9C%BB" target="_blank">[경제 용어] 비배제성 뜻</a>
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EC%86%8C%EB%B9%84-%EB%9C%BB" target="_blank">[경제 용어] 소비 뜻</a>
@@ -17,7 +18,6 @@
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EA%B3%B5%EA%B8%89%EC%9E%90-%EB%9C%BB" target="_blank">[경제 용어] 공급자 뜻</a>
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EC%88%98%EC%9A%94%EC%9E%90-%EB%9C%BB" target="_blank">[경제 용어] 수요자 뜻</a>
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EC%8B%9C%EC%9E%A5-%EB%9C%BB" target="_blank">[경제 용어] 시장 뜻</a>
-- 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%ED%98%95%ED%8F%89%EC%84%B1-%EB%9C%BB" target="_blank">[경제 용어] 형평성 뜻</a>
 
 <br>
 
