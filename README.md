@@ -8,6 +8,7 @@
 <br>
 
 ## :zap: 최근 발행 포스트
+- 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EC%A0%95%EC%83%81%EC%9E%AC-%EB%9C%BB" target="_blank">[경제 용어] 정상재 뜻</a>
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EB%B3%B4%EC%99%84%EC%9E%AC-%EB%9C%BB" target="_blank">[경제 용어] 보완재 뜻</a>
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EB%8C%80%EC%B2%B4%EC%9E%AC-%EB%9C%BB" target="_blank">[경제 용어] 대체재 뜻</a>
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EC%82%AC%EC%9C%A0%EC%9E%AC-%EB%98%90%EB%8A%94-%EC%82%AC%EC%A0%81%EC%9E%AC%ED%99%94-%EB%9C%BB" target="_blank">[경제 용어] 사유재 또는 사적재화 뜻</a>
@@ -17,7 +18,6 @@
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EC%86%8C%EB%B9%84-%EB%9C%BB" target="_blank">[경제 용어] 소비 뜻</a>
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EB%B6%84%EB%B0%B0-%EB%9C%BB" target="_blank">[경제 용어] 분배 뜻</a>
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EC%83%9D%EC%82%B0%ED%99%9C%EB%8F%99-%EB%9C%BB" target="_blank">[경제 용어] 생산활동 뜻</a>
-- 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EA%B2%BD%EC%A0%9C%ED%99%9C%EB%8F%99-%EB%9C%BB" target="_blank">[경제 용어] 경제활동 뜻</a>
 
 <br>
 
