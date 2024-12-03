@@ -8,6 +8,7 @@
 <br>
 
 ## :zap: 최근 발행 포스트
+- 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EA%B2%BD%EA%B8%B0%EC%A0%81-%EC%8B%A4%EC%97%85-%EB%9C%BB" target="_blank">[경제 용어] 경기적 실업 뜻</a>
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EB%B9%84%EC%9E%90%EB%B0%9C%EC%A0%81-%EC%8B%A4%EC%97%85-%EB%9C%BB" target="_blank">[경제 용어] 비자발적 실업 뜻</a>
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EC%9E%90%EB%B0%9C%EC%A0%81-%EC%8B%A4%EC%97%85-%EB%9C%BB" target="_blank">[경제 용어] 자발적 실업 뜻</a>
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EC%8B%A4%EC%97%85-%EB%9C%BB" target="_blank">[경제 용어] 실업 뜻</a>
@@ -17,7 +18,6 @@
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EB%B3%B4%EC%99%84%EC%9E%AC-%EB%9C%BB" target="_blank">[경제 용어] 보완재 뜻</a>
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EB%8C%80%EC%B2%B4%EC%9E%AC-%EB%9C%BB" target="_blank">[경제 용어] 대체재 뜻</a>
 - 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EC%82%AC%EC%9C%A0%EC%9E%AC-%EB%98%90%EB%8A%94-%EC%82%AC%EC%A0%81%EC%9E%AC%ED%99%94-%EB%9C%BB" target="_blank">[경제 용어] 사유재 또는 사적재화 뜻</a>
-- 🪙 <a href="https://finrel.tistory.com/entry/%F0%9F%AA%99-%EA%B2%BD%EC%A0%9C-%EC%9A%A9%EC%96%B4-%EA%B3%B5%EA%B3%B5%EC%9E%AC-%EB%9C%BB" target="_blank">[경제 용어] 공공재 뜻</a>
 
 <br>
 
